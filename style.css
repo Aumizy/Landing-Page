@@ -40,13 +40,14 @@ body {
     color: white !important;
 }
 .site-content {
-    background-image: url('./images/main\ \(1\).jpg');
+    background-image: url('./images/main.jpg');
     background-attachment: fixed;
     background-size: cover;
 }
 .site-title{
-    margin-top: 30%;
-    margin-bottom: 6%;
+    /* margin-top: 1%; */
+    height: 100vh;
+    /* margin-bottom: 1%; */
     color: black!important;
     font-family: 'Archivo Black', sans-serif;
     text-transform: uppercase;
@@ -57,7 +58,7 @@ body {
     font-size: 14px;
 }
 .site-btn1{
-    margin-left: 37%;
+    margin-left: 3%;
     background: red !important;
     border: rgb(165, 0 , 203) !important;
     color: white !important;
@@ -65,6 +66,7 @@ body {
 .site-btn2{
     background: black !important;
     color: white;
+    border: none;
 }
 .site-btn1:hover{
     background: black !important;
@@ -76,8 +78,10 @@ body {
     border: none;
 }
 .site-btn1, .site-btn2{
-    margin-top: 5%;
-    margin-bottom: 40%;
+    /* margin-top: 5%; */
+    position: relative;
+    bottom: 500px;
+    /* margin-bottom: 20%; */
 }
 
 /* section-1 */
@@ -215,6 +219,7 @@ body {
     padding-top: 10px;
     color: red;
     font-size: 20px;
+    cursor: pointer;
 }
 .section-5 .btn-light {
     background: red;
