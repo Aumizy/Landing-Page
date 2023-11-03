@@ -11,7 +11,10 @@ body {
     font-family: 'Archivo Black', sans-serif;
     text-transform: uppercase;
     font-weight: 400;
-    color: black !important;
+    /* color: black !important; */
+    padding-right:10%;
+    /* width: 1%; */
+    /* height: 1%; */
 }
 .nav-link {
     font-size: 16px;
